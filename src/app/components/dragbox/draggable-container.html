@@ -1,0 +1,10 @@
+<div class="out-container"
+     style="position: relative"
+     ng-drop="true"
+     ng-drop-success="onDropComplete($data,$event)">
+  <img src="{{item.url}}" class="dragged-icon" ng-repeat="item in droppedObjects" alt=""/>
+
+  <md-button class="md-fab drag-container" aria-label="FAB">
+    <h1>{{label}}</h1>
+  </md-button>
+</div>

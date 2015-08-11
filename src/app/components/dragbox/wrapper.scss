@@ -1,0 +1,54 @@
+.md-fab.drag-container{
+  width: 256px;
+  height: 256px;
+  margin: 0 auto;
+  margin: 52px;
+
+}
+.items-list{
+  background-color: #eee;
+  min-height: 200px;
+}
+.md-fab{
+  img{
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+.md-fab.draggable-icon{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+
+}
+.draggable-container-row{
+  margin-top: 30px;
+}
+.out-container{
+  width: 360px;
+  height: 360px;
+  background-color: rgb(245, 245, 245);
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.258824) 0px 2px 5px 0px;;
+}
+
+.out-container .dragged-icon{
+  width: 32px;
+  height: 32px;
+  position: absolute;
+
+}
+.dragged-icon{
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  position: absolute;
+  left: 164px;
+  top: 164px;
+  z-index: 23;
+  transform: rotate(0deg) translate(-154px) rotate(0deg);
+  transition: all 0.3s ease-out;
+}
+.animate{
+  transform: rotate(-180deg) translate(-154px) rotate(180deg);
+}
